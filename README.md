@@ -1,45 +1,27 @@
-# OpenFin Frontend Challenge
+# OpenFin Frontend Challenge <img src="./logo.svg" width="38" height="38" align="top"/>
 
-Build a React application implementing the following design:
+Build a mini React app implementing [this design](./design.mov)
 
-> [Design Here]
+<img src="./preview.png"/>
 
 ### Acceptance Criteria
 
+- Uses the provided [sample data](./data.json) and assets
 - Incorporates keyboard commands to display and dismiss the prompt
 - Focuses input automatically when the prompt is displayed
-- Displays list of results filtered by `title` as text is entered into the prompt
-- Clicking `sort` toggles results from alphabetical order by `title` to `createdAt` (Four way toggle? :/)
+- Displays list of results filtered by `name` as text is entered into the prompt
+- Sort results by `name` or `birthday` with toggle
 - Text entered into the prompt clears each time the prompt is dismissed
 - Incorporates motion animations where appropriate, e.g. on display, dismissal, searching, and sorting.
 - Handles scaling and zooming gracefully using responsive principles, e.g. resizing the browser window or parent container and adjusting page zoom
-- Application builds and starts with a single command
+
+### Delivery
+
 - Deliver a respository and a live instance ([Netlify](https://netlify.com) works great) when you're finished
+- Application builds and starts with a single command, e.g. `npm start`
 
 ### Guidelines
 
-- Be prepared to spend 3-5 hours on the challenge
+- Take the build as far as you like and spend no more than 5 hours on the challenge
 - Use any frameworks or libraries supporting your build and be ready to discuss your decisions
 - Fork this repo to get started!
-
-### Sample Data
-
-```json
-
-{
-  "data": [
-    {
-        "id": "1",
-        "type": "item",
-        "title": "I'm an item",
-        "createdAt": "2020-01-01T00:00:00.000Z"
-    },
-    {
-        "id": "2",
-        "type": "item",
-        "title": "I'm an item 2",
-        "createdAt": "2020-01-01T00:01:00.000Z"
-    }
-}
-
-```
